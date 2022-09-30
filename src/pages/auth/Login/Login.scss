@@ -1,0 +1,17 @@
+.login-page {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: $primary-color;
+
+  > div {
+    width: 320px;
+    padding: 24px;
+    background-color: $component-background;
+    box-shadow: $card-shadow;
+    border-radius: $card-radius;
+    text-align: center;
+  }
+}

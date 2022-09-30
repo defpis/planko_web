@@ -1,0 +1,19 @@
+.sticky-note {
+  height: calc(100% - 70px);
+  padding: 16px 0;
+  border-radius: $card-radius;
+  background-color: $content-background;
+  user-select: none;
+}
+
+.card-add {
+  height: 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  > .ant-card-body {
+    font-size: 24px;
+  }
+}
